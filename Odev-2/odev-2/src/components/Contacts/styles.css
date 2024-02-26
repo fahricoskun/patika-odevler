@@ -1,0 +1,48 @@
+#container {
+    width: 400px;
+    background-color: chocolate;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-add {
+    padding: 10px 0;
+    width: 60px;
+}
+
+.btn-rmv {
+    padding: 5px 0;
+    width: 60px;
+}
